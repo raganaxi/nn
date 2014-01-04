@@ -22,11 +22,7 @@ int main(int argc, char *argv[])
 		myset.insert("jael");
 		myset.insert("grillo");
 		myset.insert("booz");
-  
-
-  it=myset.find("booz");
-  myset.erase (it);
-  myset.erase (myset.find("jael"));
+ 
 
   std::cout << "myset contains:";
   for (it=myset.begin(); it!=myset.end(); ++it)
